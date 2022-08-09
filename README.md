@@ -5,6 +5,10 @@ CSS Shadow Generator, just tweak some properties, copy styles and you are good t
 
 A project does not have to comprise billions of lines of code or a million features. A project is an opportunity to learn, a platform to discover and advance our knowledge along with testing our skills and capabilities.
 
+This project gave me that opportunity.
+
+It enhanced my HTML, CSS & JS skills.
+I learned to manipulate DOM with more dynamic approach...
 
 ## Features
 
