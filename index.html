@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Generator</title>
+    <link rel="stylesheet" href="css/shadowpr.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <nav id="navbar" class="navbar">
+        <a href="#" class="logo"><span style="color: var(--orange);">TC</span><span class="white">RD</span><span
+                style="color: var(--green);">EV</span></a>
+        <button id="nav-toggler" class="material-symbols-outlined">menu</button>
+        <ul id="nav" class="navitems">
+            <li><a href="#" class="white">HOME</a></li>
+            <li><a href="#explore" class="white">EXPLORE</a></li>
+            <li><a href="#about" class="white">ABOUT</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="main">
+
+        <div class="container">
+
+            <div class="output">
+                <div id="element"></div>
+            </div>
+
+
+            <!-- <hr style="border: none; border-top: 4px solid blue;"> -->
+
+
+            <div class="tweaks">
+
+                <div class="wrapper">
+                    <label for="h-shadow">Horizontal Shadow</label>
+                    <input type="range" class="slider" id="h-shadow" min="-100" max="100" value="0" ">
+                    <div class="value" id="h-val">0</div>
+                </div>
+
+                <div class="wrapper">
+                    <label for="v-shadow">Vertical Shadow</label>
+                    <input type="range" class="slider"  id="v-shadow" min="-100" max="100" value="0">
+                    <div class="value" id="v-val">0</div>
+                </div>
+
+                <div class="wrapper">
+                    <label for="blur-rad">Blur Radius</label>
+                    <input type="range" class="slider" id="blur-rad" min="0" max="100" value="0">
+                    <div class="value" id="b-val">0</div>
+                </div>
+
+
+                <div class="wrapper">
+                    <label for="spread-rad">Spread Radius</label>
+                    <input type="range" class="slider" id="spread-rad" min="0" max="100" value="0">
+                    <div class="value" id="s-val">0</div>
+                </div>
+
+                <div class="wrapper">
+                    <label for="color">Shadow Color</label>
+                    <input type="color" id="color">
+                </div>
+
+                <div class="wrapper">
+                    <label for="opacity">Color Opacity</label>
+                    <input type="range" class="slider" id="opacity" min="0" max="1" step="0.1" value="1">
+                    <div class="value" id="o-val">1</div>
+                </div>
+                <div class="check">
+                    <label for="inset">Inset</label>
+                    <input type="checkbox" name="inset" id="inset">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="results">
+            <textarea id="op"></textarea>
+            <button class="btn" id="copybtn">Copy</button>
+        </div>
+
+    </section>
+
+    <div id="explore">
+        <span class="title">MORE CONTENT COMING SOON...</span>
+            <ul class="more">
+                <li>Pre - Styled Box Shadow</li>
+                <li>Fancy Border Radius</li>
+                <li>Pre - Styled Buttons</li>
+                <li>And more...</li>
+            </ul>
+    </div>
+
+
+    <section id="about">
+        <div class="about">
+        <img src="/assets/tcr.jpg" class="me" alt="">
+        <h3 class="title txt">Hellow There! It's TCR Your Friendly Neighbourhood Developer</h3></div>
+            <br>
+        <div class="footer">
+            
+        </div>
+    </section>
+    <script src="js/shadowpr.js"></script>
+
+</body>
+
+</html>
