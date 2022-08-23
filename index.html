@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Shadow Generator</title>
     <link rel="stylesheet" href="css/shadowpr.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
@@ -42,43 +43,44 @@
                 <div class="wrapper">
                     <label for="h-shadow">Horizontal Shadow</label>
                     <input type="range" class="slider" id="h-shadow" min="-100" max="100" value="0" ">
-                    <div class="value" id="h-val">0</div>
-                </div>
-
-                <div class="wrapper">
-                    <label for="v-shadow">Vertical Shadow</label>
-                    <input type="range" class="slider"  id="v-shadow" min="-100" max="100" value="0">
-                    <div class="value" id="v-val">0</div>
-                </div>
-
-                <div class="wrapper">
-                    <label for="blur-rad">Blur Radius</label>
-                    <input type="range" class="slider" id="blur-rad" min="0" max="100" value="0">
-                    <div class="value" id="b-val">0</div>
-                </div>
-
-
-                <div class="wrapper">
-                    <label for="spread-rad">Spread Radius</label>
-                    <input type="range" class="slider" id="spread-rad" min="0" max="100" value="0">
-                    <div class="value" id="s-val">0</div>
-                </div>
-
-                <div class="wrapper">
-                    <label for="color">Shadow Color</label>
-                    <input type="color" id="color">
-                </div>
-
-                <div class="wrapper">
-                    <label for="opacity">Color Opacity</label>
-                    <input type="range" class="slider" id="opacity" min="0" max="1" step="0.1" value="1">
-                    <div class="value" id="o-val">1</div>
-                </div>
-                <div class="check">
-                    <label for="inset">Inset</label>
-                    <input type="checkbox" name="inset" id="inset">
+                    <div class=" value" id="h-val">0
                 </div>
             </div>
+
+            <div class="wrapper">
+                <label for="v-shadow">Vertical Shadow</label>
+                <input type="range" class="slider" id="v-shadow" min="-100" max="100" value="0">
+                <div class="value" id="v-val">0</div>
+            </div>
+
+            <div class="wrapper">
+                <label for="blur-rad">Blur Radius</label>
+                <input type="range" class="slider" id="blur-rad" min="0" max="100" value="0">
+                <div class="value" id="b-val">0</div>
+            </div>
+
+
+            <div class="wrapper">
+                <label for="spread-rad">Spread Radius</label>
+                <input type="range" class="slider" id="spread-rad" min="0" max="100" value="0">
+                <div class="value" id="s-val">0</div>
+            </div>
+
+            <div class="wrapper">
+                <label for="color">Shadow Color</label>
+                <input type="color" id="color">
+            </div>
+
+            <div class="wrapper">
+                <label for="opacity">Color Opacity</label>
+                <input type="range" class="slider" id="opacity" min="0" max="1" step="0.1" value="1">
+                <div class="value" id="o-val">1</div>
+            </div>
+            <div class="check">
+                <label for="inset">Inset</label>
+                <input type="checkbox" name="inset" id="inset">
+            </div>
+        </div>
 
         </div>
 
@@ -88,25 +90,25 @@
         </div>
 
     </section>
-
     <div id="explore">
         <span class="title">MORE CONTENT COMING SOON...</span>
-            <ul class="more">
-                <li>Pre - Styled Box Shadow</li>
-                <li>Fancy Border Radius</li>
-                <li>Pre - Styled Buttons</li>
-                <li>And more...</li>
-            </ul>
+        <ul class="more">
+            <li>Pre - Styled Box Shadow</li>
+            <li>Fancy Border Radius</li>
+            <li>Pre - Styled Buttons</li>
+            <li>And more...</li>
+        </ul>
     </div>
 
 
     <section id="about">
         <div class="about">
-        <img src="/assets/tcr.jpg" class="me" alt="">
-        <h3 class="title txt">Hellow There! It's TCR Your Friendly Neighbourhood Developer</h3></div>
-            <br>
+            <img src="/assets/tcr.jpg" class="me" alt="">
+            <h3 class="title txt">Hellow There! It's TCR Your Friendly Neighbourhood Developer</h3>
+        </div>
+        <br>
         <div class="footer">
-            
+
         </div>
     </section>
     <script src="js/shadowpr.js"></script>
