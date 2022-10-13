@@ -73,4 +73,4 @@ box-shadow: 8px 8px 7px 0px rgba(42,48,81,0.9), inset 0px 0px 15px 5px rgba(42,4
 - Text Shadow Generator with set of Pre-Styled text shadows
 
 ## Author
-[@CHETAN_SAPKAL](https://github.com/chetanraje)
+[@CHETAN_SAPKAL](https://github.com/ceotcr)
