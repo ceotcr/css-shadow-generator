@@ -12,7 +12,7 @@ I learned to manipulate DOM with more dynamic approach...
 
 ## Features
 
-- [Box Shadow Generator](https://chetanraje.github.io/boxshadowgenerator)
+- [Box Shadow Generator](https://witty-cliff-0f4a6ac00.1.azurestaticapps.net/)
 
 ![Box-Shadow-Generator](https://user-images.githubusercontent.com/68210482/183402561-230c34bb-63d6-45a1-9837-7d9f9ef2a927.png)
 
@@ -23,7 +23,7 @@ I learned to manipulate DOM with more dynamic approach...
 - If a border-radius is specified on the element with a box shadow, the box shadow takes on the same rounded corners. The z-ordering of multiple box shadows is the same as multiple text shadows (the first specified shadow is on top).
 
 ### #Docs
-[Box Shadow Generator](https://chetanraje.github.io/boxshadowgenerator) is an interactive tool to create beautiful shadow effect by tweaking few properties using it's damn simple interface.
+[Box Shadow Generator](https://witty-cliff-0f4a6ac00.1.azurestaticapps.net/) is an interactive tool to create beautiful shadow effect by tweaking few properties using it's damn simple interface.
 
 - Use Sliders to change following properties to create desired shadow effects.
 
