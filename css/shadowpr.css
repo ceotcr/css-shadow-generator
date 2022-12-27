@@ -107,8 +107,7 @@
 }
 
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./assets/deadpool.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/deadpool.jpg) no-repeat center/cover;
   padding: 80px;
 }
 
